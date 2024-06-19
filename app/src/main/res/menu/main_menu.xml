@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Home">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_home"
+                        android:title="Home" />
+                </group>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Courses">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_addCourse"
+                    android:title="Add Course" />
+                    android:id="@+id/nav_science"
+                    android:title="Science and Technology" />
+                <item
+                    android:id="@+id/nav_Cart"
+                    android:title="Cart" />
+                    android:id="@+id/nav_cart"
+                    android:title="Cart" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>
+

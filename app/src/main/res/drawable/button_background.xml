@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- Dodajte senku -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="100dp" />
+                    <solid android:color="#80808080"/>
+                </shape>
+            </item>
+            <item android:right="2dp" android:bottom="1dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="100dp" />
+                    <solid android:color="#674ea7"/> <!-- Boja senke, ovo možete prilagoditi -->
+                </shape>#674ea7
+            </item>
+        </layer-list>
+    </item>
+</selector>

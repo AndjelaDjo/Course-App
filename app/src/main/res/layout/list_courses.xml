@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="Opis slike"
+            android:src="@drawable/item1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/image1"
+            app:layout_constraintTop_toTopOf="@+id/image1"
+            app:layout_constraintWidth_default="wrap"
+            app:layout_constraintWidth_max="190dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="Adobe XD UI UX Design Very Long Title That May Wrap to the Next Line"
+            android:textSize="17dp"
+            android:textColor="#373b54"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="24"
+            android:textColor="#373b54"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toEndOf="@+id/image1"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+
+        <TextView
+            android:id="@+id/hoursValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hours"
+            android:textColor="#373b54"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toEndOf="@+id/textHours"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:text="250"
+            android:textColor="#373b54"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textTitle"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/dolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="0dp"
+            android:text="$"
+            android:textColor="#373b54"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textPrice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textPrice" />
+
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPrice"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/arrow" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

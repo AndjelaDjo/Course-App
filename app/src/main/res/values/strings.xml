@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="knowledge_happens">Lets make knowledge happen</string>
+    <string name="background_image_description">Opis pozadinske slike</string>
+    <string name="rocket">Slika rakete</string>
+    <string name="cap">Slika kapice</string>
+    <string name="login">LOGIN</string>
+    <string name="enterEmail">Enter your email</string>
+    <string name="enterPassword">Enter your password</string>
+    <string name="hintEmail">Enter Email</string>
+    <string name="hintPassword">Enter Password</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
